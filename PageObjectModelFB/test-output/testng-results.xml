@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-09-08T17:35:07Z" name="Default suite" finished-at="2022-09-08T17:35:14Z" duration-ms="6884">
+    <groups>
+    </groups>
+    <test started-at="2022-09-08T17:35:07Z" name="Default test" finished-at="2022-09-08T17:35:14Z" duration-ms="6884">
+      <class name="test.CreateNewAccountTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.CreateNewAccountTest@5a56cdac]" started-at="2022-09-08T13:34:59Z" name="setup" finished-at="2022-09-08T13:35:07Z" duration-ms="8400" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="CreateNewAccountPagetest(java.lang.String, java.lang.String)[pri:0, instance:test.CreateNewAccountTest@5a56cdac]" started-at="2022-09-08T13:35:08Z" name="CreateNewAccountPagetest" data-provider="dp" finished-at="2022-09-08T13:35:14Z" duration-ms="6289" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Golam]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Rabbani]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateNewAccountPagetest -->
+      </class> <!-- test.CreateNewAccountTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
